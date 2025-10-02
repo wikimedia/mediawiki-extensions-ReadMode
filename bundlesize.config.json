@@ -1,0 +1,10 @@
+[
+	{
+		"resourceModule": "ext.ReadMode",
+		"maxSize": "3 kB"
+	},
+	{
+		"resourceModule": "ext.ReadMode.styles",
+		"maxSize": "1 kB"
+	}
+]

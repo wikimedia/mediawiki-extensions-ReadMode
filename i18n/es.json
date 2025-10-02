@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"readmode-desc": "Agrega un modo de lectura para enfocar el contenido al ocultar elementos contextuales",
+	"readmode-enable": "Habilitar el modo de lectura",
+	"readmode-enable-help": "Activa el modo de lectura para enfocarte en el contenido al ocultar elementos contextuales"
+}

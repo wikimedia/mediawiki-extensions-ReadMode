@@ -1,0 +1,38 @@
+{
+	"manifest_version": 2,
+	"name": "ReadMode",
+	"version": "1.0",
+	"url": "https://www.mediawiki.org/wiki/Extension:ReadMode",
+	"descriptionmsg": "readmode-desc",
+	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]",
+	"license-name": "GPL-3.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.43.0"
+	},
+	"MessagesDirs": {
+		"ReadMode": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"ReadMode": "ReadMode.php"
+	},
+	"ResourceModules": {
+		"ext.ReadMode": {
+			"scripts": "ReadMode.js"
+		},
+		"ext.ReadMode.styles": {
+			"styles": "ReadMode.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ReadMode"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "ReadMode::onBeforePageDisplay",
+		"GetPreferences": "ReadMode::onGetPreferences",
+		"OutputPageBodyAttributes": "ReadMode::onOutputPageBodyAttributes"
+	}
+}

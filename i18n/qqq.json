@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"readmode-desc": "{{desc|name=ReadMode|url=https://www.mediawiki.org/wiki/Extension:ReadMode}}",
+	"readmode-enable": "Label for the switch to enable or disable the read mode",
+	"readmode-enable-help": "Help text for the switch to enable or disable the read mode"
+}

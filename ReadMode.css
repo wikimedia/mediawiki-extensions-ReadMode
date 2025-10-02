@@ -1,0 +1,15 @@
+.read-mode .vector-header-container,
+.read-mode .vector-page-toolbar,
+.read-mode .vector-column-start,
+.read-mode .vector-column-end,
+.read-mode .mw-editsection {
+	display: none;
+}
+
+/**
+ * The sticky header must be hidden with !important
+ * because its display property is constanty changing via JavaScript
+ */
+.read-mode .vector-sticky-header-container {
+	display: none !important;
+}

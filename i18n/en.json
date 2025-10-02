@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"readmode-desc": "Adds a read mode to help focus on the content by hiding contextual elements",
+	"readmode-enable": "Enable read mode",
+	"readmode-enable-help": "Enable the read mode to focus on the content by hiding contextual elements"
+}
