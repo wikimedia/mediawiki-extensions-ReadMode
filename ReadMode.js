@@ -26,7 +26,7 @@ const ReadMode = {
 
 	switchComponent: {
 
-		template: '<cdx-toggle-switch id="read-mode-switch" :disabled="disabled" v-model="readMode" @update:model-value="onUpdate">Read mode</cdx-toggle-switch>',
+		template: '<cdx-toggle-switch :disabled="disabled" v-model="readMode" @update:model-value="onUpdate">Read mode</cdx-toggle-switch>',
 
 		data() {
 			const action = mw.config.get( 'wgAction' );
